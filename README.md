@@ -6,26 +6,15 @@ This is a really simple project that show the usage of Next.js with TypeScript.
 
 ## How to use it?
 
-### Using `create-next-app`
 
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
-
-### Download manually
-
-Download the example [or clone the repo](https://github.com/zeit/next.js):
+### Download next.js
 
 ```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript
-cd with-typescript
+npm install --save next -g
 ```
+### Clone repository to your directory
 
-Install it and run:
+### Install dependency and run:
 
 ```bash
 npm install
@@ -35,6 +24,3 @@ yarn
 yarn dev
 ```
 
-## The idea behind the example
-
-Use the [@zeit/next-typescript](https://github.com/zeit/next-plugins/tree/master/packages/next-typescript) plugin to inject the Webpack config required to compile TypeScript to JavaScript. For information about using a TSConfig have a [look at the plugin page](https://github.com/zeit/next-plugins/tree/master/packages/next-typescript/#readme).
